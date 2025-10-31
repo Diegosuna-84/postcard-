@@ -1,0 +1,57 @@
+body {
+    background: black;
+}
+
+
+.lobster-two-bold-italic {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+* {
+    min-height: 10px;
+}
+.postcard {
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+}
+.postcard-header {
+    display: flex;
+}
+.postcard-header h1 {
+    width: 500px;
+    height: 50px;
+    margin-left: 10px;
+}
+.postcard-header img {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.postcard-body {
+    display: flex;
+}
+.body-left p:firts-child {
+    margin-top: 10;
+}
+.body-left,
+.bodyright {
+    padding: 15px;
+}
+.postcard-footer {
+    text-align: center;
+}
+buttom {
+    background-color: darkgray;
+    padding: 200px;
+}
+input {
+    border: none;
+    border-bottom: grey;
+    font-style: italic;
+    text-decoration-line: underline;
+    margin-top: 10px;
+}
